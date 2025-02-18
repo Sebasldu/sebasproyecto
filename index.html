@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Animaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#deportes">Deportes</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <div class="content" id="inicio">
+        <h1>BIENVENIDO A NUESTRA REVISTA UNIVERSITARIA</h1>
+    </div>
+    
+    <div class="content" id="deportes">
+        <h2>Sección de Deportes</h2>
+        <div class="tabla">
+            <div>
+                <img src="img/futbol.jpg" alt="Imagen 1">
+                <p>Ecuavoley: Universidad Central, campeón del interuniversitario</p>
+                <p>La Universidad Central del Ecuador se coronó campeona...</p>
+            </div>
+            <div>
+                <img src="img/basquet.jpg" alt="Imagen 2">
+                <p>La Universidad Central es sede del Torneo Provincial de Baloncesto</p>
+                <p>La Universidad Central del Ecuador se ha convertido en sede...</p>
+            </div>
+            <div>
+                <img src="img/natacion.jpg" alt="Imagen 3">
+                <p>Debut del equipo de natación Universidad Central</p>
+                <p>El equipo de natación de la Universidad Central del Ecuador...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content" id="noticias">
+        <h2>Últimas Noticias</h2>
+        <div class="tabla">
+            <div>
+                <img src="img/IMAGEN1.jpg" alt="Noticia 1">
+                <p>Documentos pertenecientes al general Eloy Alfaro Delgado...</p>
+                <p>Los documentos serán exhibidos en una muestra...</p>
+            </div>
+            <div>
+                <img src="img/IMAGEN2.jpg" alt="Noticia 2">
+                <p>Débil control en las universidades</p>
+                <p>El débil control en las universidades es un tema...</p>
+            </div>
+            <div>
+                <img src="img/IMAGEN3.jpeg" alt="Noticia 3">
+                <p>Corte da la razón a autoridades de la Universidad Central</p>
+                <p>La Corte ha fallado a favor de las autoridades...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content" id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes comunicarte con nosotros a través del siguiente correo: revistadigitaluce@uce.com</p>
+        
+        <div class="formulario">
+            <h3>Envíanos un mensaje</h3>
+            <form id="formularioContacto" action="#" method="post">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje sobre una noticia observada en la universidad:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+        <div class="socials">
+            <h3>Síguenos en nuestras redes sociales</h3>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="img/fc.png" alt="Facebook" class="icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="img/tw.png" alt="Twitter" class="icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="img/ig.jpg" alt="Instagram" class="icon">
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
